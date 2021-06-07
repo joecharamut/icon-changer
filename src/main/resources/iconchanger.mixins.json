@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "rocks.spaghetti.iconchanger.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "server": [
+    "MinecraftServerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

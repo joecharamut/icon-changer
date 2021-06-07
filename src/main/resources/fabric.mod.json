@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "iconchanger",
+  "version": "${version}",
+
+  "name": "Icon Changer",
+  "description": "Dynamic Server Icons",
+  "contact": {
+    "homepage": "https://github.com/joecharamut/icon-changer"
+  },
+  "authors": [
+    "joe"
+  ],
+  "license": "GPL-3.0-only",
+  "icon": "assets/iconchanger/icon.png",
+
+  "environment": "server",
+  "entrypoints": {
+    "server": [
+      "rocks.spaghetti.iconchanger.IconChanger"
+    ]
+  },
+  "mixins": [
+    "iconchanger.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.0",
+    "minecraft": "1.17.x"
+  }
+}
